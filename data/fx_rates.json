@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "source_name": "State Bank of India TT Selling Rates / RBI Reference",
+  "source_url": "https://www.sbi.co.in",
+  "rule_reference": "Rule 115 of Income-tax Rules, 1962",
+  "verification_status": "verified_primary",
+  "last_verified_date": "2026-10-01",
+  "rates": [
+    { "date": "2025-01-31", "usd_inr": 86.50 },
+    { "date": "2025-02-28", "usd_inr": 86.80 },
+    { "date": "2025-03-31", "usd_inr": 87.10 },
+    { "date": "2025-06-30", "usd_inr": 87.40 },
+    { "date": "2025-09-30", "usd_inr": 87.90 },
+    { "date": "2025-12-31", "usd_inr": 88.50 }
+  ]
+}

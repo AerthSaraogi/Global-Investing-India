@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "routes": [
+    {
+      "id": "direct_lrs",
+      "name": "Direct US Investing (via LRS)",
+      "availability_note": "Open for all Indian Resident individuals under USD 250k LRS limit",
+      "entry_cost_pct": 0.5,
+      "fx_markup_pct": 0.75,
+      "annual_cost_pct": 0.15,
+      "premium_to_nav_pct": 0.0,
+      "tcs_applies": true,
+      "tax_treatment_key": "foreign_shares",
+      "min_investment_inr": 1000,
+      "source_url": "https://rbi.org.in",
+      "last_verified_date": "2026-04-01",
+      "verification_status": "verified_primary"
+    },
+    {
+      "id": "indian_etf",
+      "name": "Indian-listed International ETF",
+      "availability_note": "Subject to market price vs iNAV premium/discount on NSE/BSE",
+      "entry_cost_pct": 0.1,
+      "fx_markup_pct": 0.0,
+      "annual_cost_pct": 0.5,
+      "premium_to_nav_pct": 2.5,
+      "tcs_applies": false,
+      "tax_treatment_key": "indian_international_etf",
+      "min_investment_inr": 500,
+      "source_url": "https://nseindia.com",
+      "last_verified_date": "2026-04-01",
+      "verification_status": "verified_primary"
+    },
+    {
+      "id": "intl_fof",
+      "name": "International Fund of Funds (Domestic MF)",
+      "availability_note": "Check RBI/SEBI overseas investment industry cap status before investing",
+      "entry_cost_pct": 0.0,
+      "fx_markup_pct": 0.0,
+      "annual_cost_pct": 1.25,
+      "premium_to_nav_pct": 0.0,
+      "tcs_applies": false,
+      "tax_treatment_key": "debt_mf_taxation",
+      "min_investment_inr": 500,
+      "source_url": "https://amfiindia.com",
+      "last_verified_date": "2026-04-01",
+      "verification_status": "verified_primary"
+    },
+    {
+      "id": "gift_city",
+      "name": "GIFT City IFSCA Inbound/Outbound Funds",
+      "availability_note": "Available via IFSC banking units and designated intermediaries",
+      "entry_cost_pct": 0.25,
+      "fx_markup_pct": 0.2,
+      "annual_cost_pct": 0.85,
+      "premium_to_nav_pct": 0.0,
+      "tcs_applies": true,
+      "tax_treatment_key": "gift_city_funds",
+      "min_investment_inr": 100000,
+      "source_url": "https://ifsca.gov.in",
+      "last_verified_date": "2026-04-01",
+      "verification_status": "verified_primary"
+    }
+  ]
+}
